@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung</title>
+    <link rel="stylesheet" href="assets/CSS/product.css">
+    <link rel="shortcut icon" href="/samsung/assets/img/Logo.jpg" type="/samsung/assets/img/x-icon">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/CSS/vanilla-zoom.min.css">
+</head>
+<body>
+    <!--Thanh menu -->
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__navbar">
+                <div class="header__navbar__logo">
+                    <img class="navbar__logo__image" src="./assets/img/Logo.jpg" alt="logo" />
+                </div>
+                <div class="header__navbar__main">
+                    <a class="navbar__main__a" href="./Home.html">TRANG CHỦ</a>
+
+                    <a class="navbar__main__a nav_prd " href="./product.html">SẢN PHẨM
+                    </a>
+                    <a class="navbar__main__a" href="Contact.html">LIÊN LẠC</a>
+                </div>
+            </div>
+            <div style="width: 100px; margin: auto; display: flex;">
+                <input type="search" class="header__search" name="searchValue"  />
+                <i class="fa-solid fa-magnifying-glass search__icon" onclick="search(event)"></i>
+            </div>
+            <div class="header__login__logout" >
+                <a class="header__login" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>ĐĂNG NHẬP</span></a>
+                <a class="header__logout" href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>ĐĂNG KÝ</span></a>
+            </div>
+            <a class="header__cartItem" href="./cartPage.html">
+                <i class="fa-solid fa-cart-shopping cartItem"></i>
+            </a>
+        </div>
+        <!--Mo ta chi tiet sp -->
+        <main class="page product-page" >
+            <section class="clean-block clean-product dark">
+                <div class="container" >
+                    <div class="block-heading">
+                        <h2 class="text-info"><br></h2>
+                        <p></p>
+                    </div>
+                    <div class="block-content">
+                        <div class="product-info">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="gallery">
+                                        <div class="d-flex justify-content-center align-items-center">
+                                            <img src="assets/img/m34.jpg" alt="Ảnh" class="img-fluid">
+                                          </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="info mb-4" >
+                                        <h3 class="mb-5">Samsung Galaxy A04</h3>
+                                        <div class="price mb-5">
+                                            <h3>2.490.000 VNĐ</h3>
+                                        
+                                        
+                                    </div>
+                                    <div class="price mb-5">
+                                        <h3>COND: 99% </h3>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info mb-4" >
+                                    <div>
+                                        <img src="">
+                                        <p>📦 Trong hộp có: Sạc, Tai nghe, Sách hướng dẫn, Cây lấy sim. </p>
+                                    </div>
+                                    <div>
+                                        <img src="">
+                                        <p>🎖️ Bảo hành chính hãng 12 tháng.</p>
+                                    </div>
+                                    <div class="last">
+                                        <img src="">
+                                        <p>💱 1 đổi 1 trong 1 tháng nếu lỗi.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                            <div class="col-md-6">
+                                <div class="info mb-4" >
+                                    <div>
+                                        <img src="">
+                                        <p>🎁 Tặng kèm ốp lưng tự chọn.  </p>
+                                    </div>
+                                    <div>
+                                        <img src="">
+                                        <p>👉 Thay cường lực và vệ sinh miễn phí trọn đời.</p>
+                                    </div>
+                                    <div class="last">
+                                        <img src="">
+                                        <p>📲  Khách hàng sẽ được thử máy miễn phí tại cửa hàng..</p>
+                                    </div>   
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="product-info ">
+                            <div>
+                                <ul class="nav nav-tabs" role="tablist" id="myTab">
+                                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="tab" id="description-tab" href="#description">Đặc điểm nổi bật</a></li>
+                                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="tab" id="specifications-tabs" href="#specifications">Thông số kỹ thuật</a></li>
+                                    
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active description" role="tabpanel" id="description">
+                                        <h4>Thao tác nhanh chóng với Exynos 1380</h4>
+                                        <p>Phải công nhận một điều là các mẫu điện thoại Samsung Galaxy M đều mang trong mình một hiệu năng vượt trội và Galaxy M54 5G không phải là một ngoại lệ. Máy đã có sự nâng cấp so với người đàn anh của mình khi được trang bị con chip Exynos 1380 8 nhân đầy mạnh mẽ.<br>Có thể thấy với việc được trang bị Exynos 1380 thì máy sẽ đáp ứng hầu hết mọi tác vụ từ đơn giản đến phức tạp nhất một cách nhanh chóng. Đây cũng là mẫu điện thoại RAM 8 GB kết hợp với khả năng mở rộng RAM hiện đại giúp giải quyết tốt mọi vấn đề liên quan đến đa nhiệm hay hiện tượng giật lag khi chuyển đổi qua lại giữa các ứng dụng.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet1.jpg" alt="Ảnh">
+                                        <p>Không quá bất ngờ khi máy được trang bị công nghệ 5G cùng với Wi-Fi 6 hiện đại giúp cho việc hoạt động trên không gian mạng của bạn không gặp bất cứ khó khăn gì, đồng thời giúp cho việc tải các tệp phục vụ cho công việc cũng như tải những bộ phim một cách nhanh chóng so với các sản phẩm khác.</p>
+                                        <h4>Khám phá những thước phim rõ nét nhất</h4>
+                                        <p>Về màn hình, Galaxy M54 5G không có quá nhiều sự thay đổi so với bản tiền nhiệm, máy vẫn có tấm nền Super AMOLED Plus với kích thước 6.7 inch. Với trang bị trên thì hình ảnh hiển thị tốt hơn ít bị nhiễu hạt cũng như màn hình được thiết kế mỏng hơn, với độ sáng vượt trội, mang đến hiệu quả tiết kiệm năng lượng. Điều này góp phần tạo ra thời gian sử dụng lâu dài cho thiết bị, kéo dài tuổi thọ pin của điện thoại.<br>Đi kèm là độ phân giải Full HD+ đem lại trải nghiệm xem video tuyệt vời, hình ảnh trở nên sắc nét, chi tiết. Các chi tiết nhỏ trong video được hiển thị một cách rõ ràng hơn, tạo ra hình ảnh mượt mà và sống động. Màu sắc trở nên tươi sáng tạo ra một trải nghiệm thú vị cho việc thưởng thức nội dung đa phương tiện.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet2.jpg" alt="Ảnh">
+                                        <p>Tần số quét 120 Hz mang đến sự mượt mà trong các thao tác hằng ngày như cuộn màn hình, trượt qua các danh sách và chơi game. Đồng thời, khi bạn xem video trên màn hình 120 Hz giúp mang lại trải nghiệm mượt mà hơn, giúp hình ảnh và nội dung đa phương tiện hiển thị một cách rõ ràng và sống động nhất.</p>
+                                        <h4>Vẻ ngoài đơn giản tạo nên điểm nhấn</h4>
+                                        <p>Một sự thay đổi về mặt thiết kế trên M54 5G khi Samsung đã loại bỏ cụm camera vuông vức mà chuyển sang đặt thành một dọc thẳng hàng giống với lối thiết kế của dòng sản phẩm cao cấp của hãng. Khung viền được thiết kế tinh tế, kết hợp với lớp sơn bóng cao cấp, tạo ra một thương hiệu vẻ đẹp sang trọng và cuốn hút.<br>Một trong những điểm nổi bật tiếp theo của Samsung Galaxy M54 5G chính là thiết kế máy được làm bo tròn, mang đến sự gọn gàng, cứng cáp nhưng không kém phần sang trọng tạo nên sự hài hòa và bắt mắt cho sản phẩm.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet3.jpg" alt="Ảnh">
+                                        <p>Không chỉ vậy, viền màn hình của Galaxy M54 5G còn được tối ưu mỏng, tạo nên một cảm giác hấp dẫn và cải thiện trải nghiệm xem phim, chơi game hay lướt web cho bạn. Với cạnh viền mỏng sẽ giúp bạn tận dụng tối đa diện tích màn hình, giảm thiểu khả năng che khuất hình ảnh và tạo ra một trải nghiệm cuốn hút trong mọi hoạt động trên điện thoại.</p>
+                                        <h4>Bắt trọn mọi khoảnh khắc một cách rõ nét</h4>
+                                        <p>Hệ thống camera trên Galaxy M54 5G hứa hẹn sẽ đem đến cho bạn những bức ảnh chất lượng, màu sắc trung thực và hình ảnh sắc nét giúp bạn giữ lại được những khoảnh khắc sống động với cảm biến chính 108 MP.<br>Ngoài ra, thiết bị còn hỗ trợ ống kính góc siêu rộng 8 MP và macro 2 MP. Điều này cho phép dễ dàng chụp cảnh thiên nhiên, phố thị rộng lớn hay đơn giản là khám phá những thứ diệu kỳ xung quanh bạn ở kích thước nhỏ với camera chụp cận.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet4.jpg" alt="Ảnh">
+                                        <p>Đi cùng với cụm camera có độ phân giải cao là những tính năng hiện đại mà Samsung trang bị trên Galaxy M54 5G trong đó nổi bật nhất có thể kể đến là chống rung quang học OIS giúp tạo ra hình ảnh và video sắc nét, ổn định hơn trong nhiều tình huống khác nhau, đặc biệt là trong điều kiện ánh sáng yếu và chuyển động.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet5.jpg" alt="">
+                                        <h4>Viên pin lớn mang đến trải nghiệm dài lâu</h4>
+                                        <p>Cung cấp năng lượng cho A04 là viên pin 5000 mAh cùng khả năng sạc 15 W, có thể đáp ứng một ngày với những tác vụ cơ bản và bạn không cần quá lo lắng về việc hết pin khi đang sử dụng.
+                                        </p>
+                                        <img src="assets/img/Hình chi tiết A04/hinhchitiet5_A04.jpg" alt="Ảnh">
+                                        <p>Đồng thời với sự bùng nổ của kỷ nguyên trí tuệ nhân tạo AI, Samsung đã mang đến một tính năng hữu ích AI Edit giúp việc chỉnh sửa hình ảnh của bạn trở nên đơn giản hơn bao giờ hết với những thuật toán đến từ AI.</p>
+                                        <h4>Duy trì thời lượng sử dụng dài lâu</h4>
+                                        <p>Samsung Galaxy M54 5G thật sự ấn tượng với viên pin có dung lượng khủng lên đến 6000 mAh, một con số lớn trong phân khúc điện thoại thông minh. Việc trang bị dung lượng pin lớn này mang lại rất nhiều lợi ích cho việc sử dụng.<br>Khả năng dung lượng pin này cho phép bạn hoàn toàn thoải mái sử dụng điện thoại suốt cả ngày mà không cần lo lắng về việc cạn kiệt pin. Bạn có thể dễ dàng thực hiện nhiều tác vụ đa nhiệm, xem video, tham gia trò chơi, lướt web và duyệt mạng xã hội mà không cần lo ngại về hiệu suất pin.</p>
+                                        <img src="assets/img/Hình ảnh chi tiết M54/hinhchitiet6.jpg" alt="">
+                                        <p>Khả năng sạc nhanh thực sự là một điểm mạnh đáng kể của thiết bị này. Với sự hỗ trợ sạc nhanh lên đến 25 W, bạn có khả năng nạp đầy pin trong khoảng thời gian ngắn. Điều này giúp tiết kiệm thời gian và không làm gián đoạn trải nghiệm sử dụng điện thoại của bạn</p>
+                                        <div class="row">
+                                        <div class="col-md-7">
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-5">
+                                                <figure class="figure"></figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade specifications" role="tabpanel" id="specifications">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="stat">Màn hình</td>
+                                                        <td>6.7" - Tần số quét 120 Hz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Camera</td>
+                                                        <td>Chính 108 MP & Phụ 8 MP, 2 MP</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">RAM</td>
+                                                        <td>8 GB</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Android</td>
+                                                        <td>Android 13</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Màu</td>
+                                                        <td>Silver</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Tần số quét </td>
+                                                        <td>120Hz</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Dung lượng pin </td>
+                                                        <td>6000 mAh</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="stat">Chip xử lý </td>
+                                                        <td>Exynos 1380 8 nhân</td>
+                                                    </tr>
+                                                    
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--chân trang-->
+        <div id="footer">
+            <div class="social-list">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>

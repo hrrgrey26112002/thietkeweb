@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/cart.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header__navbar">
+                <div class="header__navbar__logo">
+                    <img class="navbar__logo__image" src="assets/img/Logo.jpg" alt="" />
+                </div>
+                <div class="header__navbar__main">
+                    <a class="navbar__main__a" href="Home.html">TRANG CHỦ</a>
+                    <a class="navbar__main__a nav_prd" href="product.html">SẢN PHẨM
+                    </a>
+                    <a class="navbar__main__a" href="Contact.html">LIÊN LẠC</a>
+                </div>
+            </div>
+            <div class="header__login__logout">
+                <a class="header__login" href="login.html"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>ĐĂNG
+                        NHẬP</span></a>
+                <a class="header__logout" href="signup.html"><i class="fa-solid fa-arrow-right-to-bracket"></i><span>ĐĂNG
+                        KÝ</span></a>
+            </div>
+            <a class="header__cartItem" href="cartPage.html">
+                <i class="fa-solid fa-cart-shopping cartItem"></i>
+            </a>      
+        </div>
+        <h2 class="non_Products" style="margin-top: 100px; text-align: center;"></h2>
+        <div class="cart">
+            <h1 class="section__title">GIỎ HÀNG</h1>
+            <div class="cart__table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th style="width:50px;">STT</th>
+                            <th style="width:180px;">TÊN</th>
+                            <th style="width:100px;">SỐ LƯỢNG</th>
+                            <th style="width:100px;">GIÁ</th>
+                            <th style="width:100px;">TỔNG GIÁ</th>
+                            <th style="width:50px;">XÓA</th>
+                        </tr>
+                    </thead>
+                    <tbody class="show_products_inCart">
+                    </tbody>
+                </table>
+            </div>
+            <div class="btn__update">
+                <button class="btn btn-update" onclick="updateCart()">
+                    Cập nhật giỏ hàng
+                </button>
+            </div>
+            <div class="total__price">
+                TỔNG TIỀN: <span class="item__price total__price__value">100VND</span>
+            </div>
+            <div class="btn-common">
+                <a class="btn-common-btn" href="payment.html">THANH TOÁN</a>               
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="bottom1">
+                <h3>Liên hệ chúng tôi để biết thêm tại:</h3>
+                <p>Địa chỉ: 1 Võ Văn Ngân, Linh Chiểu, Thủ Đức, TP. HCM</p>
+                <p>SĐT: 0787908701</p>
+                <div class="link_up">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div> 
+            <div class="bottom2">
+                <h3>Thông tin chính sách</h3>
+                <p> Bảo hành trong vòng 6 tháng </p>
+                <p> Đổi trả miễn phí trong vòng 7 ngày </p>
+                <p> Hỗ trợ trả góp với lãi suất hấp dẫn </p>
+            </div> 
+             <div class="bottom3">
+                <h3> Ý kiến phản hồi</h3>
+                    <form action="camon.html">
+                        <input type="text" placeholder="Bạn đang có ý kiến gì?" required>
+                        <li><a href="camon.html"><button>Gửi</button></a></li>
+                    </form>
+            </div> 
+        </div>
+    <script src="assets/js/cart.js"></script>
+    <script src="assets/js/product.js"></script>
+</body>
+</html>

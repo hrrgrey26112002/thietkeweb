@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+body{
+    display: flex;
+    width: 1512px;
+    padding: 106px 387px 113px 388px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    overflow: hidden;
+    background-image: url("dangnhap.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: transparent;
+    border-radius: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+}
+.container h1{
+    text-align: center;
+    padding-top: 20px;
+    color:#3A4D39;
+    font-family:'Koho', sans-serif; 
+    font-weight:bold;
+    font-size: 45px;
+}
+.container form{
+    padding: 0 40px;
+}
+form .form-control{
+    position: relative;
+    border-bottom: 2px solid #ECE3CE;
+    margin: 40px 0;
+}
+.form-control .success{
+    border-bottom-color:#498d6c;
+}
+.form-control .error{
+    border-bottom-color:#ec607c;
+}
+.form-control input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+small{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 3px;
+    color: #e74c3c;
+}
+.form-control span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #5C8D89;
+    transition: 0.3s;
+}
+.form-control input:focus ~ span::before{
+    width: 100%;
+}
+::placeholder{
+    color:#ECE3CE;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background:#3A4D39;
+    border-radius: 25px;
+    font-size: 18px;
+    font-family: 'Koho', sans-serif;
+    color: #ECE3CE;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+input[type='submit']:hover {
+    background-color: #3A4D39;
+    font-weight:bolder;
+    position:inherit;
+}
+
+.home_link{
+    margin: 25px 0;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Koho', sans-serif;
+    color: #5C8D89;
+}
+.home_link a{
+    color: #4F6F52;
+    text-decoration: none;
+}
+.signup_link h2{
+    margin: 25px 0;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Josefin-sans', sans-serif;
+    color: #494C52;
+}
+.signup_link a{
+    color: #4F6F52;
+    font-family: 'Josefin-sans', sans-serif;
+    font-size:12px;
+    text-align: center;
+    text-decoration:none;
+}
+.signup_link a:hover{
+    text-decoration: underline;
+    text-align: center;
+}

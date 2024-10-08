@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+body{
+    display: flex;
+    width: 1512px;
+    padding: 106px 387px 113px 388px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    overflow: hidden;
+    background-image: url('bgsamsung.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    width: 498px;
+    height: 624px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    border: 5px solid #ECE3CE;
+    background: #DDF3EB;
+    background: transparent;
+}
+
+.container h1{
+    color:#739072;
+    font-size: 50px;
+    font-family:'Koho', sans-serif; 
+    text-align:center; 
+    padding-top: 5%;
+}
+.container form{
+    padding: 0 40px;
+}
+form .form-control{
+    position: relative;
+    border-bottom: 2px solid #ECE3CE;
+    margin: 40px 0;
+    font-size:initial;
+}
+.form-control .success{
+    border-bottom-color: #2691d9;
+}
+.form-control .error{
+    border-bottom-color:#ec607c;
+}
+.form-control input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    color:#5C8D89;
+}
+small{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: 3px;
+    color: #e74c3c;
+}
+.form-control span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #3A4D39;
+    transition: 0.3s;
+}
+.form-control input:focus ~ span::before{
+    width: 100%;
+}
+
+::placeholder{
+    color:#ECE3CE;
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+input[type='submit']{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #4F6F52;
+    border-radius:95px;
+    font-size: 25px;
+    font-family:'Koho', sans-serif;
+    font-style: italic;
+    font-weight:10px;
+    color: #ECE3CE;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s;
+}
+input[type='submit']:hover {
+    background-color: #3A4D39;
+}

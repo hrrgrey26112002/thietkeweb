@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=KoHo:ital,wght@0,200;0,500;1,200&family=Mooli&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KoHo', 'Josefin-Sans';
+}
+.wrapper {
+    background: #F4F9F4;
+}
+table, th, td {
+    border: 1px solid #3A4D39;
+    text-align: center;
+}
+thead{
+    background-color: #3A4D39;
+}
+.header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: #3A4D39;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header__navbar {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 64px;
+    margin-left: 45px;
+}
+.header__navbar__logo{
+    height: 32px;
+    width: 32px;
+}
+.navbar__logo__image {
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+
+.header__navbar__main {
+    display: block;
+    margin-left: 35px;
+}
+
+.navbar__main__a {
+    color: #ECE3CE;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+a.navbar__main__a:hover {
+    background-color: #ECE3CE;
+    color: #3A4D39;
+}
+
+.header__cartItem {
+    display: block;
+    color: #ECE3CE;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: auto 20px;
+    text-decoration: none;
+}
+
+.header__cartItem:hover {
+    background-color: #ECE3CE;
+    color: #3A4D39;
+    cursor: pointer;
+}
+.header__login__logout{
+    margin: auto 30px auto auto ;
+    display: flex;
+}
+.header__login__logout > a{
+    display: block;
+    padding: 0 5px;
+    color: #ECE3CE;
+    border-radius: 6px;
+    padding: 8px 10px;
+    text-decoration: none;
+
+}
+.header__login__logout > a:hover{
+    background-color: #ECE3CE;
+    color: #3A4D39;
+    cursor: pointer;
+}
+.section__title {
+    margin-top: calc(60px + -50px);
+    color: #4F6F52;
+    text-align: center;
+    font: 800 48px "Inter-ExtraBold", 'KoHo';
+    position: center;
+}
+
+.btn-common{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0px 30px 0px;
+}
+.btn-common-btn{
+    padding: 8px 96px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border: solid 1px #5C8D89;
+    text-decoration: none;
+    color: #5C8D89;
+
+}
+.btn-common-btn:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px;
+    color:  white ;
+    background-color: #4F6F52;
+
+}
+
+.card__details{
+    display: block;
+    align-items: center;
+    width: 739px;
+    margin: auto;
+    border: solid 1px #4F6F52;
+    border-radius: 10px;
+}
+.form__group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    height: 50px;
+    color: #4F6F52;
+}
+
+.footer{
+    height: 213px;
+    width: 1512;
+    background-color: #3A4D39;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 4px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    line-height: 45px;
+    align-items: center;
+    justify-items: center;
+    list-style: none;}
+    .bottom1{
+        padding-left: 30px;
+    }
+    .bottom1 h3{
+    color: #ECE3CE;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    }
+    .bottom1 p{
+    color: #ECE3CE;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    
+    }
+    .link_up a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color:#ECE3CE;
+    }
+    .link_up a:hover{
+        display: inline-block;
+        transition: 0.25s;
+        font-size: 18px;
+    }
+    .bottom2 h3{
+        color: #ECE3CE;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        
+        }
+    .bottom2 p{
+        color: #ECE3CE;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;  
+    }
+    .bottom3{
+        padding-right: 30px;
+    }
+    .bottom3 h3{
+        color: #ECE3CE;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+       
+    }
+    .bottom3 form{
+        position: relative;
+        width: 100%;
+        margin-top: 10px; 
+        color:#ECE3CE;
+    }
+    .bottom3 li button{
+    width: 82px;
+    color:#ECE3CE;
+    list-style: none;
+    background-color: #739072;
+    }
+    .bottom3 input{
+        width: 349px;
+        height: 50px;
+        color:#ECE3CE;
+        position:relative;
+    background-color: #739072;
+    }
